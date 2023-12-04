@@ -1,0 +1,27 @@
+----------------------------
+FONT: RUDA
+
+TEXT: end of season
+TEXT: sale -COLOR: #B88940
+TEXT: 50 % off  
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+TEXT: Lorem $0.00
+
+----------------------------
+FONT: Open sans Extra Bold
+
+TEXT: your fashion -COLOR: #B88940
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+
+----------------------------
+FRANJAS AMARILLAS  -COLOR: #FFBD59
+
+

@@ -1,0 +1,30 @@
+----------------------------
+MEDIA QUERY STRATEGY
+
+https://mediaqueri.es/
+
+----------------------------
+FONT: Arimo
+
+TEXT: ALL
+----------------------------
+GREEN CIRCLE
+
+COLOR: #7ED957
+
+---------------------------
+GREEN STRIPE
+
+COLOR: #00BF63
+
+----------------------------
+GREEN FOOTER
+
+COLOR: #00BF63
+
+----------------------------
+TEXT FOOTER
+
+COLOR: #EEEEEE
+
+----------------------------
