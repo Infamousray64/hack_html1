@@ -22,7 +22,7 @@
 
 |Hacks | Details | 
 |----------|---------|
-| H-1      | Position |
+| H-1      | Position or Free Mode |
 | H-2      | Float |
 | H-3      | Flex | 
 | H-4      | Free Mode | 
@@ -89,9 +89,9 @@ PULL_REQUEST_TEMPLATE
 
 ## 🏆 H-1
 
-#### 👽 Frontend (Position)
+#### 👽 Frontend (Position or Free mode)
 ```sh
- 1. Crear el hack html mediante el uso de position relative / absolute
+ 1. Crear el hack html mediante el uso de position relative / absolute ó modalidad libre
     - se prohibe el uso de float
     - se prohibe el uso de flex
 ```     
