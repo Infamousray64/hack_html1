@@ -76,8 +76,8 @@ PULL_REQUEST_TEMPLATE
     adicional establecer al elemento hijo:
 
     width: 100%;
-    height: 100;;
-    backgroudn-size:cover;
+    height: 200px;
+    background-size:cover;
     background-repeat:no-repeat;
     background-image: url(path);
     background-position: center center;
