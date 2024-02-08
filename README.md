@@ -143,7 +143,7 @@ PULL_REQUEST_TEMPLATE
 
 ---
 ## 🏆 H-6  
-#### 👽 (Free Mode) 🔔 optional 🔔 
+#### 👽 (Free Mode) - 🔔 It is not required, optional 🔔 
 
 ```sh
  6. Crear el hack con las habilidades vistas en clases:
