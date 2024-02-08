@@ -142,7 +142,7 @@ PULL_REQUEST_TEMPLATE
 ```
 
 ---
-## 🏆 H-6
+## 🏆 H-6  🔔 optional 🔔
 #### 👽 (Free Mode)
 
 ```sh
