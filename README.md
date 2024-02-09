@@ -96,7 +96,7 @@ PULL_REQUEST_TEMPLATE
 
 ## 🏆 H-1
 
-🎬 Ejemplo de como preparar el ambiente del hack.
+🎬 Cómo preparar el ambiente del hack.
 
 ![](https://github.com/SocialOplesk/hack-html-1/blob/main/gifs/hack_html_1_run.gif)
 
