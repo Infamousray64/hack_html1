@@ -13,11 +13,18 @@
 ```
 
 ```diff
+* Clonar el repositorio
 * Definir un contenido en el README.md con la siguiente estrucutra:
   * (titulo con el número del hack) 
   * (si deseas anexar más info al README.md, tienes la libertad de expresar tus ideas)
 * Copie el fragmento del texto que esta contenido en el sector PULL_REQUEST_TEMPLATE en el archivo PULL_REQUEST_TEMPLATE.md
 ```
+<br/>
+
+🎬 Clonar Repo
+
+![](https://github.com/SocialOplesk/hack-html-1/blob/main/gifs/hack_html_1_install.gif)
+
 <br/>
 
 |Hacks | Details | 
@@ -88,6 +95,10 @@ PULL_REQUEST_TEMPLATE
 ---
 
 ## 🏆 H-1
+
+🎬 Ejemplo de como preparar el ambiente del hack.
+
+![](https://github.com/SocialOplesk/hack-html-1/blob/main/gifs/hack_html_1_run.gif)
 
 #### 👽 Frontend (Position or Free mode)
 ```sh
