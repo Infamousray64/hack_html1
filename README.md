@@ -21,7 +21,7 @@
 ```
 <br/>
 
-🎬 Clonar Repo
+🎬 Clonar Repo.
 
 ![](https://github.com/SocialOplesk/hack-html-1/blob/main/gifs/hack_html_1_install.gif)
 
