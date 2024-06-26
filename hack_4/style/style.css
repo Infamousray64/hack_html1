@@ -51,3 +51,18 @@ html, body {
 .centered-text {
     text-align: center; /* Centra el texto horizontalmente */
 }
+.image-item {
+    text-align: center; /* Centra todo el contenido de .image-item, incluyendo la imagen y el texto del precio */
+}   
+
+.price {
+    font-weight: bold; /* Hace el texto del precio en negrita */
+    /* Puedes agregar más estilos aquí si necesitas, como margen para separar el texto de la imagen */
+}
+
+.main-title {
+    position: absolute;
+    bottom: 0; /* Posiciona el título en la parte inferior del contenedor */
+    width: 100%; /* Asegura que el título se extienda a lo ancho del contenedor */
+    text-align: center; /* Centra el texto */
+}
