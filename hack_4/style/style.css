@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    position: relative; /* Esto permite posicionar absolutamente los contenedores de imágenes respecto al body */
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que el contenedor se extienda por toda la altura de la ventana */
+}
+
+.line-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: absolute; /* Cambiado de relative a absolute */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar exactamente */
+    z-index: 1; /* Asegura que esté detrás de las imágenes */
+}
+
+.line {
+    height: 20px; /* Grosor de la línea */
+    width: calc(100% - 200px); /* Ajusta según necesites para alinear con las imágenes */
+    background-color: #FFD700; /* Color amarillo oscuro */
+    margin: 10px 0; /* Ajusta el margen si es necesario */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegura que las imágenes estén por encima de las líneas */
+}
+
+.image-container img {
+    width: 150px; /* Ajusta según necesites */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+.centered-text {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+.image-item {
+    text-align: center; /* Centra todo el contenido de .image-item, incluyendo la imagen y el texto del precio */
+}   
+
+.price {
+    font-weight: bold; /* Hace el texto del precio en negrita */
+    /* Puedes agregar más estilos aquí si necesitas, como margen para separar el texto de la imagen */
+}
+
+.main-title {
+    position: absolute;
+    bottom: 0; /* Posiciona el título en la parte inferior del contenedor */
+    width: 100%; /* Asegura que el título se extienda a lo ancho del contenedor */
+    text-align: center; /* Centra el texto */
+}

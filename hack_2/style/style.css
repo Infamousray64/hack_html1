@@ -1,0 +1,56 @@
+/*  - se prohibe el uso de position
+    - se prohibe el uso de flex */
+
+:root {
+    --hg-blue: #93B5C9;
+    --hg-wine: #AB2849;
+}
+.top-bar {
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue);
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+}
+
+.wine-bar {
+    height: 160px;
+    width: 100%;
+    background-color: var(--hg-wine);
+    margin-top: 0; 
+    margin-left: 0;
+    z-index: 999;
+}
+.wine-bar-2, .wine-bar-3, .wine-bar-4, .wine-bar-5 {
+    height: 80px;
+    width: calc(100% - 100px);
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    z-index: 999;
+}
+
+.wine-bar-2 {
+    margin-top: 10px; 
+}
+
+.wine-bar-3 {
+    margin-top: 10px; 
+}
+
+.wine-bar-4 {
+    margin-top: 10px; 
+}
+
+.wine-bar-5 {
+    margin-top: 10px; 
+}
+.wine-bar-6 {
+    height: 80px;
+    width: calc(100% - 80px);
+    background-color: var(--hg-wine);
+    margin-top: 10px; 
+    margin-right: 40px; 
+    margin-left: 40px; 
+    z-index: 999;
+}

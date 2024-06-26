@@ -1,0 +1,82 @@
+/* - se prohibe el uso de position
+    - se prohibe el uso de float */
+
+
+:root {
+    --hg-blue: #93B5C9;
+    --hg-wine: #AB2849;
+}
+.top-bar {
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue);
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+}
+
+.wine-bar {
+    height: 160px;
+    width: 100%;
+    background-color: var(--hg-wine);
+    margin-top: 0; 
+    margin-left: 0;
+    z-index: 999;
+}
+.wine-bar-2, .wine-bar-3, .wine-bar-4, .wine-bar-5 {
+    height: 80px;
+    width: calc(100% - 200px);
+    background-color: var(--hg-wine);
+    margin-right: 100px; 
+    margin-left: 100px; 
+    z-index: 999;
+}
+
+.wine-bar-2 {
+    margin-top: 10px; 
+}
+
+.wine-bar-3 {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 10px;
+    height: 80px;
+    width: calc(100% - 200px); 
+    background-color: transparent; 
+}
+
+.wine-bar-3 > div {
+    flex-grow: 1; 
+    background-color: var(--hg-wine);
+    height: 100%; 
+}
+
+.wine-bar-4 {
+    margin-top: 10px; 
+}
+
+.wine-bar-5 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 3px; 
+    margin-top: 10px;
+    height: 80px;
+    width: calc(100% - 200px); 
+    background-color: transparent; 
+}
+
+.wine-bar-5 > div {
+    flex-grow: 1; 
+    background-color: var(--hg-wine); 
+    height: 100%; 
+}
+
+.wine-bar-6 {
+    height: 80px;
+    width: 100%; 
+    background-color: var(--hg-wine);
+    margin-top: 10px; 
+    margin-right: 0; 
+    margin-left: 0; 
+    z-index: 999;
+}

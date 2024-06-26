@@ -1,0 +1,59 @@
+/*  - se prohibe el uso de float
+    - se prohibe el uso de flex */
+
+:root {
+ --hg-blue: #93B5C9;
+ --hg-wine: #AB2849;
+}
+.top-bar {
+    height: 80px;
+    width: 100%;
+    background-color: var(--hg-blue); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.wine-bar {
+    height: 160px; 
+    width: 100%;
+    background-color: var(--hg-wine); 
+    position: fixed;
+    top: 80px; 
+    left: 0;
+    z-index: 999; 
+}
+.wine-bar-2, .wine-bar-3, .wine-bar-4, .wine-bar-5 {
+    height: 80px; 
+    width: calc(100% - 100px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 100px; 
+    z-index: 999; 
+}
+
+.wine-bar-2 {
+    top: 250px; 
+}
+
+.wine-bar-3 {
+    top: 340px; 
+}
+
+.wine-bar-4 {
+    top: 430px; 
+}
+
+.wine-bar-5 {
+    top: 520px; 
+}
+.wine-bar-6 {
+    top: 610px; 
+    height: 80px; 
+    width: calc(100% - 80px); 
+    background-color: var(--hg-wine); 
+    position: fixed;
+    left: 40px; 
+    right: 40px; 
+    z-index: 999; 
+}
