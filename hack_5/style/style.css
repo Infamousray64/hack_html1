@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Previene el desplazamiento horizontal */
+    height: 100%; /* Asegura que el body tenga al menos la altura de la ventana */
+}
+
+body {
+    background-image: url('../img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional, para un efecto de fondo fijo */
+}
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px; /* Ajusta según necesidad */
+}
+
+.status-container {
+    display: flex;
+    align-items: center; /* Alinea el punto y el texto verticalmente */
+    background-color: white; /* Fondo blanco */
+    padding: 50px; /* Espaciado interno */
+}
+
+.status-dot {
+    height: 30px; /* Tamaño del punto */
+    width: 30px; /* Tamaño del punto */
+    background-color: #00FF00; /* Color verde */
+    border-radius: 50%; /* Hace el punto circular */
+    display: inline-block;
+    margin-right: 5px; /* Espacio entre el punto y el texto */
+}
+
+.status-text {
+    font-size: 24px; /* Ajusta este valor según necesites */
+    margin: 0; /* Elimina el margen por defecto de los párrafos si es necesario */
+}
