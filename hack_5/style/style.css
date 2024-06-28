@@ -20,11 +20,15 @@ header {
 
 .status-container {
     display: flex;
-    align-items: center; /* Alinea el punto y el texto verticalmente */
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente */
     background-color: white; /* Fondo blanco */
-    padding: 50px; /* Espaciado interno */
+    padding: 20px; /* Espaciado interno */
 }
-
+.left-content {
+    display: flex;
+    align-items: center;
+}
 .status-dot {
     height: 30px; /* Tamaño del punto */
     width: 30px; /* Tamaño del punto */
@@ -37,4 +41,66 @@ header {
 .status-text {
     font-size: 24px; /* Ajusta este valor según necesites */
     margin: 0; /* Elimina el margen por defecto de los párrafos si es necesario */
+}
+.global-solutions {
+    /* Estilos para 'Soluciones Mundiales' */
+    font-size: 24px; /* Ajusta este valor según necesites */
+    margin: 0; /* Elimina el margen por defecto de los párrafos si es necesario */
+}
+
+
+.creative-solutions-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Fondo para hacer el texto visible */
+    text-align: left;
+    padding: 20px 100px; /* Añade algo de espacio alrededor del texto */
+    font-size: 24px; /* Ajusta el tamaño del texto según necesites */
+
+}
+.images-container {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra las imágenes horizontalmente en el contenedor */
+    align-items: center; /* Alinea las imágenes verticalmente en el centro */
+    gap: 50px; /* Espacio entre las imágenes */
+}
+
+.images-container img {
+    max-width: 130px; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    /* La propiedad 'margin: 0 auto;' y 'display: block;' ya no son necesarias aquí */
+}
+.image-item {
+    text-align: center; /* Centra el texto debajo de las imágenes */
+}
+.image-item img {
+    max-width: 100px; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.background-container {
+    position: relative; /* Establece como contenedor relativo para posicionar las franjas */
+    background-image: url('ruta-a-tu-imagen-de-fondo.jpg'); /* Fondo del contenedor */
+    background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
+    background-position: center; /* Centra el fondo */
+}
+
+.green-stripe {
+    background-color: green; /* Color de fondo de las franjas */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espacio arriba y abajo de cada franja */
+    margin-right: 850px;
+    padding: 10px; /* Espacio dentro de cada franja */
+    text-align: center; /* Centra el texto dentro de las franjas */
+}
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
