@@ -39,6 +39,7 @@
 .wine-bar-3 {
     display: flex; 
     justify-content: space-between; 
+    gap: 3px;
     margin-top: 10px;
     height: 80px;
     width: calc(100% - 200px); 
